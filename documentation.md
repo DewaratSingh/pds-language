@@ -17,7 +17,7 @@ Download `compiler.js` from the GitHub repository and include it in your HTML:
 ```html
 <script type="text/javascript" src="./compiler.js"></script>
 ```
-#### a) Add pds tage to html 
+#### b) Add pds tage to html 
 To start writing PDS code, place it inside a <pds> tag within the HTML file:
 ```html
 <pds>
@@ -88,6 +88,7 @@ alert a.age
 // this is a comment
 ```
 There must be a space after //
+
 // should be in starting of line in term to use in midle of line use multi-line comment
 ### Multi-line:
 ```txt
