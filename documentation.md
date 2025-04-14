@@ -82,6 +82,42 @@ Create and use objects:
 let a = new Man 'pawan',15
 alert a.age
 ```
+## 8. Comments
+### Single-line:
+```txt
+// this is a comment
+```
+There must be a space after //
+// should be in starting of line in term to use in midle of line use multi-line comment
+### Multi-line:
+```txt
+/* 
+  This is a 
+  multi-line comment 
+*/
+```
+
+## 9. DOM Manipulation
+Control HTML elements directly using PDS.
+
+### a) Print text to element:
+```txt
+print 1234567890,'id'
+```
+Adds text to innerHTML of element with ID id.
+
+### b) Add a single CSS property:
+```txt
+style "id","color","red"
+```
+Changes the color of the element with ID id.
+
+### c) Add multiple CSS properties:
+```txt
+change 'id color:red backgroundColor:pink height:100px textAlign:center font:bold '
+```
+Sets multiple CSS styles in one call. Use space to separate each property pair.
+
 
 
 
