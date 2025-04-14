@@ -17,6 +17,10 @@ Download `compiler.js` from the GitHub repository and include it in your HTML:
 ```html
 <script type="text/javascript" src="./compiler.js"></script>
 ```
+or 
+```html
+<script src="https://cdn.jsdelivr.net/gh/DewaratSingh/pds-language/compiler.js"></script>
+```
 #### b) Add pds tage to html 
 To start writing PDS code, place it inside a <pds> tag within the HTML file:
 ```html
