@@ -15,6 +15,8 @@ My goal was to create a simple, readable syntax that can be understood even by b
 - **Clean and minimal code** style.
 - **Easy to extend** and experiment with.
 
+## You can try this language by reading documentation
+
 ## Example Code
 
 ```txt
