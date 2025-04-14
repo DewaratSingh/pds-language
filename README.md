@@ -18,7 +18,26 @@ My goal was to create a simple, readable syntax that can be understood even by b
 ## You can try this language by reading documentation
 
 ## Example Code
-
+1. simple condition statement
 ```txt
 let a = 45 and b = 67
 if a==45 then alert 'A is grater than B' else alert 'B is grater than A' .
+```
+
+2. simple example of function
+```txt
+let a = 45 and b = 67
+let function add a,b = return a+b .
+alert add a,b 
+```
+3. simple example of loop
+```txt
+let function triangle rows = let line = ''
+for i in range 1,rows+1 then let j = 0
+for j in range i then line = line+'*' end line = line+'\n'
+.
+alert line 
+end
+let lines = 29 triangle lines
+```
+
